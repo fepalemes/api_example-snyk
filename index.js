@@ -8,8 +8,8 @@ app.use(express.json());
 app.use(routes);
 
 // test code
-let user = "user-test";
-let pass = "123@test";
+let user = process.env.USER;
+let pass = process.env.PASS;
 
 console.info(`My user is ${user} and my pass is ${pass}`);
 

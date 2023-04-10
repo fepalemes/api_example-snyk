@@ -6,6 +6,8 @@ services:
     container_name: API-EXAMPLE-NEWRELIC
     environment:
       - PORT=8091
+      - USER=user-test
+      - PASS=123@test
     volumes:
       - .:/usr/app 
     ports:
