@@ -1,4 +1,4 @@
-FROM node:16-buster-slim
+FROM node:lts-slim
 
 RUN apt-get update
 
